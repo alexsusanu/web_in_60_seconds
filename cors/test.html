@@ -1,0 +1,10 @@
+<!-- test.html -->
+<script>
+fetch("https://httpbin.org/get")
+  .then(r => r.json())
+  .then(console.log)
+
+fetch("https://example.com")
+  .then(r => r.text())
+  .then(console.log)
+</script>
